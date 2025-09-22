@@ -44,6 +44,7 @@ namespace Grocery.App.ViewModels
             // Make sure to not filter when no string is given
             // if (stringInName == "")
             //     return;
+            // EDIT: This works nativly with the Contains function
             
             stringInName = stringInName.ToLower(); // Ensure the string is in lowecase to avoid irritation while searching
             
